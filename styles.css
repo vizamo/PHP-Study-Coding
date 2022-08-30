@@ -1,0 +1,118 @@
+
+body {
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#header_of_site, .clear_link {
+    background-color: khaki;
+    font-size: 30px;
+    border-radius: 0.9rem;   /*Закругление по углам формы*/
+    padding: 0.75rem;   /*Внутренний отступ*/
+    margin-bottom: 6rem;    /*Отступ вниз*/
+    width: 100%;
+    text-decoration: none; /*Ссылки без подчеркивания*/
+    color: black;
+    height: 5%;
+
+}
+#fill_form, .fill_table {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0.2rem;
+
+}
+input[type=text], input[type='submit'], select {
+    width: 18rem;
+    height: 1.8rem;
+    border: 0.5px solid gray;
+    border-radius: 0.4rem;
+    font-size: 18px;
+    padding-left: 0.3rem;
+}
+input[type='radio'], input[type='checkbox'] {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+#saada_button {
+    background-color: #ff7f50;
+    width: 10rem;
+    height: 2.5rem;
+    border: 0.5px rgba(255,217,107,0);
+    border-radius: 0.6rem;
+    font-size: 28px;
+    float: right;    /*Позиция кнопки в окне таблицы*/
+    margin-top: 5%;
+}
+.fill_list {
+    width: 80%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0.25rem; /*Отступ вокруг ячейки в таблице*/
+}
+#fill_pk {
+    width: 80%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid gray;
+    margin-bottom: 1rem;
+}
+.pk_text {
+    width: 42.5%;
+}
+.pk_mark {
+    width: 15%;
+}
+.hinne-full {
+    color: gold;
+}
+.hinne-empty {
+    color: gray;
+}
+footer {
+    margin-bottom: 0.6rem;
+    width: 80%;
+    position: fixed;    /*Фиксированная позиция внизу страницы*/
+    bottom: 0;
+    background-color: khaki;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    border-spacing: 0.2rem;
+    text-decoration: none;
+    color: black;
+    height: 5%;
+}
+.alert {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.msgbox {
+    padding: 0.6rem;
+    color: black;
+    font-size: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    margin-bottom: 0.6rem;
+    border-radius: 0.5rem;
+}
+#delete_button {
+    background-color: dimgrey;
+    width: 10rem;
+    height: 2.5rem;
+    border: 0.5px rgba(255,217,107,0);
+    border-radius: 0.6rem;
+    font-size: 28px;
+    float: right;    /*Позиция кнопки в окне таблицы*/
+    margin-top: 5%;
+}
