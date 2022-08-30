@@ -1,10 +1,10 @@
 <?php
 $conn = getConnection();
 function getConnection() {
-    $host = 'db.mkalmo.xyz';
-    $user = 'vitali206810';
-    $pass = "552f";
-    $database = 'vitali206810';
+    $host = 'host';
+    $user = 'user';
+    $pass = "pass";
+    $database = 'db_name';
 
 
     $address = sprintf('mysql:host=%s;dbname=%s', $host, $database);
